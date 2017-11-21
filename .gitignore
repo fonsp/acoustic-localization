@@ -45,3 +45,44 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Compiled python files
+*.py[oc]
+
+# gedit files
+*~
+
+# Special dirs and files
+build/
+dist/
+bin/
+spyder.egg-info/
+Thumbs.db
+.DS_Store/
+spyder_crash.log
+.DS_Store
+.spyproject
+.idea/
+.cache
+.coverage
+
+# git .orig files
+*.orig
+
+# MATLAB Windows default autosave extension
+*.asv
+
+# MATLAB OSX / *nix default autosave extension
+*.m~
+
+# Compiled MEX binaries (all platforms)
+*.mex*
+
+# Simulink Code Generation
+slprj/
+
+# Session info
+octave-workspace
+
+# Simulink autosave extension
+*.autosave
